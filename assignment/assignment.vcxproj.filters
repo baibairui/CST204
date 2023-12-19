@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="task2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="task1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="task3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
