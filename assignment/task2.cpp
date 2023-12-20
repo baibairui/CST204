@@ -103,7 +103,7 @@ public:
         }
     }
 };
-
+/*
 int main() {
     srand(time(NULL));  // Seed the random number generator
     Graph A(1000, 100 * 100);   // Sparse Graph with 100x100 edges
@@ -115,5 +115,4 @@ int main() {
     cout << "Edges\t" << A.countEdges() << "\t" << B.countEdges() << "\t" << C.countEdges() << "\n";
 
     return 0;
-}
-*/
+}*/
