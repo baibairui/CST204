@@ -63,7 +63,7 @@ public:
         return arrsize == 0;  // Returns true if stack is empty
     }
 };
-
+/*
 int main() {
     int num = 0;
     int temp = 0;
@@ -117,4 +117,5 @@ int main() {
     cout << endl;
 
     return 0;
-}*/
+}
+*/

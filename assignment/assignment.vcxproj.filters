@@ -30,5 +30,8 @@
     <ClCompile Include="task3.cpp">
       <Filter>源文件\assignment</Filter>
     </ClCompile>
+    <ClCompile Include="BST.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

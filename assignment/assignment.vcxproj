@@ -127,10 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="list.cpp" />
+    <ClCompile Include="BST.h" />
+    <ClCompile Include="Graph.h" />
+    <ClCompile Include="list.h" />
+    <ClCompile Include="priority_queue.h" />
+    <ClCompile Include="queue.h" />
     <ClCompile Include="task1.cpp" />
     <ClCompile Include="task2.cpp" />
     <ClCompile Include="task3.cpp" />
+    <ClCompile Include="Tree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
