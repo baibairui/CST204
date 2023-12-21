@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BST.cpp" />
     <ClCompile Include="list.cpp" />
     <ClCompile Include="task1.cpp" />
     <ClCompile Include="task2.cpp" />

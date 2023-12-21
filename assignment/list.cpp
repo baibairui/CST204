@@ -115,12 +115,7 @@ public:
 		// 调用移动赋值运算符
 		*this = std::move(rhs);
 	}
-    // 析构函数，释放链表中的所有节点
-    ~List() {
-        	clear();
-            delete head;
-            delete tail;
-    }
+
     // 复制赋值运算符，使得当前链表与给定链表相同
     const List& operator= (const List& rhs) {
 		// 避免自我赋值
@@ -166,11 +161,6 @@ public:
         return theSize;
     }
     
-    void clear() {
-        while (!empty()) {
-            pop_front();
-        }
-    }
 private:
     int theSize; // 链表中存储的数据的个数
 	Node* head;  // 指向链表头节点的指针
